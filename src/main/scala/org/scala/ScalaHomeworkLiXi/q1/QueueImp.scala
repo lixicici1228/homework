@@ -27,5 +27,6 @@ class QueueImp extends Queue{
       Some(res)
     }
   }
+  
   override def getSize(): Int = this.size
 }
